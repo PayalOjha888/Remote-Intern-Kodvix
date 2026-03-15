@@ -1,0 +1,38 @@
+# 🚀 Remote Internship - Kodvix
+
+Welcome to my learning repository! This project documents my journey and progress during my remote internship at **Kodvix**. Here, I track my daily learning, technical notes, and code implementations.
+
+## 📌 Project Overview
+- **Role:** Intern
+- **Focus:** Java Development / [Add your specific tech stack here]
+- **Goal:** To master core concepts and build industry-ready projects.
+
+---
+
+## 📅 Daily Progress Tracker
+
+Below are the links to my daily notes and learning modules. Each folder contains a detailed `README` and a downloadable `PDF` version of the notes.
+
+| Day | Topic | Status | Links |
+| :--- | :--- | :--- | :--- |
+| **Day 01** | JDK, JRE, and JVM Architecture | ✅ Completed | [View Notes](./Day%201/) |
+| **Day 02** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%202/) |
+| **Day 03** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%203/) |
+| **Day 04** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%204/) |
+
+---
+
+## 🛠️ Tech Stack & Tools
+- **Language:** Java
+- **Environment:** JDK 11+, IntelliJ IDEA / VS Code
+- **Documentation:** Google Docs & Markdown
+
+---
+
+## 🏆 Key Takeaways
+- Understanding the internal working of the Java Virtual Machine.
+- Documenting technical workflows for better knowledge retention.
+
+---
+📫 **Connect with me:**
+Payal Ojha - https://www.linkedin.com/in/payal-ojha/
