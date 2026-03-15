@@ -1,4 +1,4 @@
-# 🚀 Remote Internship - Kodvix
+# 🚀 Remote Internship - KodVix Technologies
 
 Welcome to my learning repository! This project documents my journey and progress during my remote internship at **Kodvix**. Here, I track my daily learning, technical notes, and code implementations.
 
