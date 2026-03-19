@@ -205,7 +205,7 @@ Java record classes provide a compact, immutable, and boilerplate-free way to de
 
 **Answer:** Dono hi "Special types" hain Java mein. Jaise Enum implicitly `java.lang.Enum` ko extend karta hai, waise hi Record `java.lang.Record` ko extend karta hai. Dono hi inheritance restrict karte hain aur fixed data ke liye bane hain.
 
-**\#Sealed classes in Java:**
+## **\#Sealed classes in Java:**
 
 **Core Concepts and Definitions:**
 
@@ -223,19 +223,19 @@ Sealed classes enable controlled inheritance by explicitly listing permitted sub
 
 For interfaces, subclasses can only be sealed or non-sealed (interfaces cannot be final).
 
-**How Sealed Classes Work**
+# **How Sealed Classes Work**
 
 When declaring a sealed class, use the syntax: public sealed class A permits B, C { // class body }
 
 This restricts inheritance of class A exclusively to classes B and C. Attempting to extend a sealed class by a class not listed in the permits clause results in a compile-time error: error: class D is not allowed to extend sealed class A. The permitted subclasses (B, C) must themselves be declared as final, sealed, or non-sealed.
 
-**Example Hierarchy and Modifiers**
+# **Example Hierarchy and Modifiers**
 
 **Class A (sealed):** Base class permitting only B and C to extend it. **Class B (non-sealed):** Can be freely extended by other classes (like D). **Class C (final):** No further inheritance allowed beyond C. **Class D (Normal):** Extends B successfully; cannot extend A directly.
 
 If B is declared final, no other class can inherit from B. If B is declared sealed, it must specify which subclasses can inherit it. If B is declared non-sealed, it is open to unrestricted subclassing.
 
-**Sealed Classes and Interfaces**
+# **Sealed Classes and Interfaces**
 
 Sealed interfaces also follow similar principles:
 
@@ -243,7 +243,7 @@ Sealed interfaces also follow similar principles:
 * Subinterfaces must be declared as sealed or non-sealed.  
 * Interfaces cannot be declared final.
 
-**Practical Use Cases**
+# **Practical Use Cases**
 
 Sealed classes are useful in application design where restricted inheritance models are desired. Examples include:
 
@@ -251,7 +251,7 @@ Sealed classes are useful in application design where restricted inheritance mod
 * Defining a Computer class where only subclasses like Laptop, Desktop, and Mobile are permitted.  
 * This feature improves code maintainability and security by explicitly controlling subclassing.
 
-**Key Insights**
+# **Key Insights**
 
 * Sealed classes provide finer control over class inheritance than final or abstract classes alone.  
 * The permits clause is mandatory to list allowed subclasses or subinterfaces.  
@@ -259,7 +259,7 @@ Sealed classes are useful in application design where restricted inheritance mod
 * Sealed classes do not eliminate inheritance but restrict it to a controlled set.  
 * This feature is optional and should be used when such restrictions fit the project design.
 
-**Conclusion**
+# **Conclusion**
 
 Sealed classes in Java introduce a powerful mechanism for controlling class and interface inheritance, allowing developers to restrict subclassing to a predefined set of permitted classes or interfaces. This enhances design clarity, reduces errors, and improves maintainability for complex Java applications. While not mandatory for every project, sealed classes provide an important option for scenarios requiring strict inheritance rules.
 
@@ -279,18 +279,18 @@ Sealed classes in Java introduce a powerful mechanism for controlling class and 
 
 **Q7. Sealed classes "Pattern Matching" (switch expressions) mein kaise help karti hain?** **Answer:** Ye sabse bada fayda hai. Jab aap `switch` mein sealed class ka use karte hain, toh compiler ko pata hota hai ki total kitni subclasses hain. Isliye aapko "default" case likhne ki zaroorat nahi padti (Exhaustiveness check), kyunki compiler verify kar sakta hai ki saare possible cases cover ho gaye hain.
 
-**\#Optional in Java:**
+### **\#Optional in Java:**
 
 * **Optional Class:** A container object introduced in Java 8 (java.util package) used to contain not-null objects. It represents a value that may or may not be present.  
 * **Purpose of Optional:** The primary design goal is to provide a type-level solution for representing optional values instead of using null references. This helps in avoiding NullPointerException (NPE) and makes the code more readable and expressive.
 
-**Why Use Optional?**
+# **Why Use Optional?**
 
 * **Explicit API Design:** When a method returns Optional, it explicitly tells the caller that the value might be missing, forcing them to handle the empty case.  
 * **Avoids Null Checks:** It reduces the need for repetitive "if (obj \!= null)" blocks throughout the code.  
 * **Functional Style:** It integrates perfectly with Java Streams and Lambda expressions for cleaner data processing.
 
-**Commonly Used Methods:**
+# **Commonly Used Methods:**
 
 **Creating Optional Objects:**
 
@@ -306,7 +306,7 @@ Sealed classes in Java introduce a powerful mechanism for controlling class and 
 * **orElseThrow():** Returns the value or throws an exception if the container is empty.  
 * **map() / flatMap():** Used to transform the value inside the Optional if it exists.
 
-**Best Practices and Restrictions:**
+# **Best Practices and Restrictions:**
 
 **Fields and Parameters:** Optional should not be used for class fields or method parameters. It is primarily intended for use as a method return type. Using it as a field can cause issues with Serialization.
 
@@ -314,7 +314,7 @@ Sealed classes in Java introduce a powerful mechanism for controlling class and 
 
 **Performance:** While Optional adds a small overhead (as it is an extra object), the benefit of code safety usually outweighs the performance cost in standard applications.
 
-**Comparison Table:**
+# **Comparison Table:**
 
 | Aspect | Traditional Null | Java Optional |
 | :---- | :---- | :---- |
@@ -323,7 +323,7 @@ Sealed classes in Java introduce a powerful mechanism for controlling class and 
 | **Readability** | Cluttered with null checks | Clean and declarative (functional style) |
 | **Usage** | Anywhere | Recommended only for Return Types |
 
-**Conclusion:**
+# **Conclusion:**
 
 The **Optional class is a final Class in Java used as object containers** that shifts the burden of null handling from the runtime to the compile-time (via API design). By treating "absence of value" as a first-class concept, developers can write more robust, maintainable, and crash-proof Java applications, especially when working with modern features like Streams and Spring Boot Data JPA.
 
