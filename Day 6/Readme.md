@@ -1,4 +1,4 @@
-### **Day 6 Learning** ###
+### **Day 6 Learning**
 
 ## **Memory References in Java:**
 
