@@ -1,6 +1,6 @@
-**Day 6 Learning**
+### **Day 6 Learning** ###
 
-**\#Memory References in Java:**
+## **Memory References in Java:**
 
 1. **Strong Reference:**  
    It is the default reference type in Java.Any object that has a strong reference pointing to it is not eligible for garbage collection. The JVM will rather throw an OutOfMemoryError than collect these objects.   
@@ -25,7 +25,7 @@
 
  
 
-**\#Enums in Java:**
+## **Enums in Java:**
 
 ## **Key Concepts and Definitions**
 
@@ -51,7 +51,7 @@ Enum declaration example for days of the week: public enum Day { SUNDAY, MONDAY,
 * Each constant is a public static final instance of the enum type.  
 * Each enum constant has: A name (string representation) and an ordinal (index starting from 0).
 
-The compiler automatically generates:
+# The compiler automatically generates:
 
 * name() method to get the constant’s name.  
 * ordinal() method to get the constant’s position.  
@@ -92,7 +92,7 @@ The compiler automatically generates:
 * New switch expressions simplify control flow using enums.  
 * Compiler-generated methods (name(), ordinal(), values()) provide utility out-of-the-box.
 
-**\#Java Records:**
+## **Java Records:**
 
 **Java Verbosity and Data Classes:** Java is verbose, especially for simple data-holder classes. Data carrier classes typically store state variables (fields) and provide methods like constructors, getters, toString(), equals(), and hashCode().
 
