@@ -19,6 +19,10 @@ Below are the links to my daily notes and learning modules. Each folder contains
 | **Day 02** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%202/) |
 | **Day 03** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%203/) |
 | **Day 04** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%204/) |
+| **Day 05** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%205/) |
+| **Day 07** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%207/) |
+| **Day 08** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%208/) |
+| **Day 09** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%209/) |
 
 ---
 
