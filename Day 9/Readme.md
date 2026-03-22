@@ -1,6 +1,6 @@
 ### Day 9 learning(20/03/2026) ###
 
-**\#Serialization in Java:**
+# **\#Serialization in Java:**
 
 ## **1\. What is Serialization?**
 
@@ -49,7 +49,7 @@ Serialization can "break" a Singleton class because deserialization always creat
 
 * `protected Object readResolve()`: This method is called during deserialization to return the existing instance instead of a new one.
 
-**\#Synchronization in Java:**
+# **\#Synchronization in Java:**
 
 ## **1\. What is Synchronization?**
 
@@ -94,7 +94,7 @@ A **Deadlock** is a situation where two or more threads are blocked forever, wai
 | **Locking** | Non-blocking | Blocking |
 | **Performance** | High | Low (due to overhead) |
 
-**\#Optional class in Java:**
+# **\#Optional class in Java:**
 
 ## **1\. What is Optional Class?**
 
