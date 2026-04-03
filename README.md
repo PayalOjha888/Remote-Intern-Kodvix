@@ -23,13 +23,13 @@ Below are the links to my daily notes and learning modules. Each folder contains
 | **Day 07** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%207/) |
 | **Day 08** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%208/) |
 | **Day 09** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%209/) |
-| **Day 10** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%210/) |
-| **Day 11** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%211/) |
-| **Day 12** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%212/) |
-| **Day 13** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%213/) |
-| **Day 14** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%214/) |
-| **Day 15** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%215/) |
-| **Day 16** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%216/) |
+| **Day 10** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%2010/) |
+| **Day 11** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%2011/) |
+| **Day 12** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%2012/) |
+| **Day 13** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%2013/) |
+| **Day 14** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%2014/) |
+| **Day 15** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%2015/) |
+| **Day 16** | [Add Topic Name] | ✅ Completed | [View Notes](./Day%2016/) |
 
 ---
 
