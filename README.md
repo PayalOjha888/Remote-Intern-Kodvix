@@ -4,7 +4,7 @@ Welcome to my learning repository! This project documents my journey and progres
 
 ## 📌 Project Overview
 - **Role:** Intern
-- **Focus:** Java Development / [Add your specific tech stack here]
+- **Focus:** Java Development
 - **Goal:** To master core concepts and build industry-ready projects.
 
 ---
